@@ -65,7 +65,6 @@ All data is automatically saved to text files, ensuring records remain safe even
 **Developed by:**
 - ABISHA CH (BSEF24M007)
 - KHANSA ZAEEM (BSEF24M013)
-- ZARMEEN NAZ (BSIT24M056)
-
+ 
 **Class**: B.S Software Engineering
 **Special Thanks**: Sir Anzar and TAs.
