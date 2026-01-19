@@ -39,7 +39,7 @@ A comprehensive console-based Hospital Management System developed in C programm
 
 ## 👨‍💻 Development Team
 
-**ABISHA CH** - BSEF24M007 • **KHANSA ZAEEM** - BSEF24M013 • **ZARMEEN NAZ** - BSIT24M056
+**ABISHA CH** - BSEF24M007 • **KHANSA ZAEEM** - BSEF24M013 •  
 
 *B.S Software Engineering Program*
 
