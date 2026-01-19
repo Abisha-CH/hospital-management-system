@@ -1,48 +1,71 @@
- # Hospital Management System 🏥
+# Hospital Management System 🏥
 
-A comprehensive console-based Hospital Management System developed in C programming language, featuring role-based access control and colorful user interface for efficient healthcare management.
+A robust, console-based Hospital Management System written in C. This project demonstrates core programming concepts including file handling, array manipulation, user authentication, and CRUD operations.
 
 ## 🚀 Features
 
-### 👩‍💼 Admin/Receptionist
-- Add new patient records with personal details and medical history
-- Register doctors with specializations and experience
-- Delete patient and doctor records
-- Password management and system administration
+### 🔐 User Authentication
+- **Secure Login**: Role-based login for Admin, Doctor, and Patient.
+- **Registration**: New users can sign up with a unique username and password.
+- **Multi-User Support**: distinct accounts for multiple admins or doctors.
+- **Password Management**: Users can securely change their own passwords.
 
-### 👨‍⚕️ Doctor
-- Patient enquiry with symptom analysis and diagnosis
-- Create detailed medical reports with prescriptions
-- Prescribe medicines and medical tests
-- Add doctor's notes and schedule follow-up appointments
-- View doctor profiles and manage credentials
+### 👨‍💼 Admin Panel
+- **Manage Patients**: Add, View All, Edit, and Delete patient records.
+- **Manage Doctors**: Add, View All, Edit, and Delete doctor records.
+- **full CRUD**: Complete Create, Read, Update, and Delete capabilities.
 
-### 🤒 Patient
-- Access complete medical records using patient ID
-- View diagnosis, prescriptions, and doctor's notes
-- Check follow-up appointment schedules
-- Review treatment history
+### 🩺 Doctor Panel
+- **Patient Enquiry**: Search for patients by ID.
+- **Medical Reports**: Create detailed reports including Diagnosis, Prescription, and Notes.
+- **View All Patients**: Access a list of all registered patients.
+- **My Profile**: View personal details and experience.
 
-## 🔑 Default Login Credentials
+### 👤 Patient Panel
+- **View Details**: Patients can view their own profile.
+- **Medical History**: Access reports, prescriptions, and doctor's notes.
 
-| Role | Username | Password |
-|------|----------|----------|
-| Admin | `admin` | `1234` |
-| Doctor | `doctor` | `1234` |
-| Patient | `patient` | `1234` |
+### 💾 Data Persistence
+All data is automatically saved to text files, ensuring records remain safe even after the program closes.
+- `patients.txt`: Stores patient demographics and medical reports.
+- `doctors.txt`: Stores doctor profiles and specialization.
+- `users.txt`: Stores login credentials and roles.
 
-## 🎯 System Highlights
-- **Secure Authentication**: Maximum 3 login attempts with role-based access
-- **Colorful Interface**: ANSI color-coded menus for better user experience  
-- **Input Validation**: Comprehensive error checking and user guidance
-- **Real-time Processing**: Immediate data updates and management
+## 🛠️ Tech Stack
+- **Language**: C
+- **Compiler**: GCC
+- **Platform**: Windows (uses `windows.h` for console styling)
 
-## 👨‍💻 Development Team
+## 🏃‍♂️ How to Run
 
-**ABISHA CH** - BSEF24M007 • **KHANSA ZAEEM** - BSEF24M013 •  
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/Hospital-Management-System.git
+    cd Hospital-Management-System
+    ```
 
-*B.S Software Engineering Program*
+2.  **Compile the code**:
+    You need a C compiler (like MinGW/GCC).
+    ```bash
+    gcc PF_PROJECT_SYSTEM.C -o hospital.exe
+    ```
 
----
+3.  **Run the application**:
+    ```bash
+    ./hospital.exe
+    ```
 
-*A practical demonstration of C programming concepts including arrays, functions, user authentication, and interactive console applications.*
+## 📂 File Structure
+- `PF_PROJECT_SYSTEM.C`: The main source code file.
+- `users.txt`: Authenticated user credentials.
+- `patients.txt`: Database of patient records.
+- `doctors.txt`: Database of doctor records.
+
+## 👥 Credits
+**Developed by:**
+- ABISHA CH (BSEF24M007)
+- KHANSA ZAEEM (BSEF24M013)
+- ZARMEEN NAZ (BSIT24M056)
+
+**Class**: B.S Software Engineering
+**Special Thanks**: Sir Anzar and TAs.
